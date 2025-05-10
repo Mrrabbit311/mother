@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f0;
+  font-family: "KaiTi", serif;
+  color: #333333;
+  text-align: center;
+}
+
+.container {
+  margin-top: 15%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 25px;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+/* 花朵图片样式 */
+.flower {
+  position: fixed;
+  width: 300px;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.flower-top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.flower-bottom-left {
+  bottom: 10px;
+  left: 10px;
+}

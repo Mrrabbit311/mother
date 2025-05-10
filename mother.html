@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>妈妈的页面</title>
+  <style>
+    body {
+      background-color: #fdf6f0;
+      font-family: 'KaiTi', serif;
+      text-align: center;
+      padding: 40px;
+      color: #333333;
+    }
+    h1 {
+      color: #d63384;
+    }
+    img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      margin: 30px 0;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff85c1;
+    }
+  </style>
+</head>
+<body>
+  <h1>最美的妈妈 ❤️</h1>
+  <img src="mother.jpg" alt="妈妈的照片">
+  <br><br>
+  <button onclick="document.getElementById('audio').play()">点击播放音乐</button>
+  <br><br>
+  <a href="index.html">
+    <button>返回主页面</button>
+  </a>
+  <audio id="audio" src="your_audio.mp3"></audio>
+</body>
+</html>
